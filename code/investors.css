@@ -1,0 +1,123 @@
+*{
+    margin:0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+#one{
+    width: 100%;
+    height: 90px;
+    box-shadow: 0px 2px 4px;
+    position: fixed;
+    background-color: white;
+    z-index: 9999;
+}
+#nav1{
+    margin-left: 25%;
+    margin-top:-35px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left:2%;
+}
+#nav1 a{
+    padding-right: 25px;
+    padding-left: 25px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+}
+#nav1 a:hover{
+    background-color: rgb(234, 234, 234);
+}
+#nav a:visited{
+    color: black;
+}
+#bt1{
+    width:120px;
+    height: 40px;
+    float: right;
+}
+#one2{
+    width:8%;
+    height: 40px;
+    background-color: #00baf2;
+    border-radius: 50px;
+    float: right;
+    color:white;
+    border: none;
+    font-size: 17px;
+    margin-right: 150px;
+    margin-top: -30px;
+    display: flex;
+    justify-content: space-around;
+
+}
+#one2:hover{
+    background-color: #002970;
+}
+#two{
+    
+    height:50px;
+    background-color: #e6f4f7;
+}
+#inv1{
+    height: 600px;
+    background: linear-gradient(116.75deg,#0085fe 7.32%,#00c6f0);
+}
+#invone{
+    margin-left: 10%;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#oneinv{
+    width:45%;
+    height: 100%;
+    color: white;
+}
+#twoinv{
+    width:40%;
+    height: 100%;
+}
+.onei{
+    background-color: #e8f8fd;
+    height: 130px;
+    border-radius: 7px;
+    display: flex;
+
+}
+.inv3{
+    
+    width: 32%;
+    height: 100%;
+    border-radius: 7px;
+    background-color: white;
+   
+}
+.inv3:hover{
+    transform: scale(1.086);
+    transition-delay: 2;
+    transition: ease-in-out;
+}
+#inves{
+    height: 680px;
+    background: linear-gradient(116.75deg,#0085fe 7.32%,#00c6f0);
+}
+.oneii{
+    background-color: #e8f8fd;
+    height: 80px;
+    border-radius: 7px;
+    display: flex;
+
+}
+.oneii a{
+    text-decoration: none;
+    color:black;
+
+}
+.oneii a:hover{
+    text-decoration: none;
+    color:#0085fe;
+
+}

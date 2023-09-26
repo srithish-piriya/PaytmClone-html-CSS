@@ -1,0 +1,221 @@
+*{
+    margin:0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+#one{
+    width: 100%;
+    height: 90px;
+    box-shadow: 0px 2px 4px;
+    position: fixed;
+    background-color: white;
+    z-index: 9999;
+}
+#nav1{
+    margin-left: 25%;
+    margin-top:-40px;
+    font-size: 16px;
+    font-weight: 600;
+}
+#nav1 a{
+    padding-right: 25px;
+    padding-left: 25px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+}
+#nav1 a:hover{
+    background-color: rgb(234, 234, 234);
+}
+#nav a:visited{
+    color: black;
+}
+#bt1{
+    width:120px;
+    height: 40px;
+    float: right;
+}
+#one2{
+    width:8%;
+    height: 40px;
+    background-color: #00baf2;
+    border-radius: 50px;
+    float: right;
+    color:white;
+    border: none;
+    font-size: 17px;
+    margin-right: 150px;
+    margin-top: -30px;
+    display: flex;
+    justify-content: space-around;
+
+}
+#one2:hover{
+    background-color: #002970;
+}
+#two{
+    
+    height:50px;
+    background-color: rgb(234, 234, 234);
+}
+#three{
+    width: 100%;
+    height:700px;
+    background-color: white;
+    position: relative;
+    display: flex;
+    
+}
+#thre1{
+    width:40%;
+    height: 500px;
+    background-color:white;
+    position: absolute;
+    top: 100px;
+    margin-left: 9%;
+}
+#thre2{
+    width:40%;
+    height: 500px;
+    background-color:white;
+    margin-top:100px;
+    margin-left:52% ;
+}
+#button3,#button4,#button5{
+    width:50%;
+    height: 45px;
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#button3:hover{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+#button4:hover{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+#button5:hover{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+#button6{
+    width:200px;
+    height: 50px;
+    background-color:#002970;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#button6:hover{
+    background-color: #00baf2;
+}
+#bill1{
+    height:1000px;
+    background-color: #002970;
+}
+#b1{
+    width:60%;
+    height: 100%;
+    margin-left:20%;
+}
+#five{
+    width:100%;
+    height:300px;
+    position: relative;
+}
+#five1{
+    width:100%;
+    height: 200px;
+    position: absolute;
+    top:100px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+#f11,#f12,#f13,#f14,#f15,#f16{
+    width: 25%;
+    height: 180px;
+    border-radius: 10px;
+}
+
+#f111,#f121,#f131,#f141,#f151,#f161{
+    width:100%;
+    height:100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;  
+}
+#four1{
+    width:100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+#fr11,#fr12,#fr13,#fr14,#fr15,#fr16{
+    width: 25%;
+    height: 180px;
+    border-radius: 10px;
+}
+#fr111,#fr121,#fr131,#fr141,#fr151,#fr161{
+    width:100%;
+    height:100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#six,#seven,#eight{
+    width: 80%;
+    margin-left: 10%;
+    height:650px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    justify-content:space-around;
+}
+#six1,#seven1,#eight1{
+    height: 450px;
+    width: 40%;
+    position: absolute;
+    top:100px;
+    left:10%;
+    background-color: white;
+}
+#six2,#seven2,#eight2{
+    height: 450px;
+    width: 40%;
+    position: absolute;
+    top:100px;
+    left:50%;
+    background-color: white;
+}
+#div11{
+    background-color: #f5f7fa;
+    height: 800px;
+}
+.last{
+    width: 80%;
+    margin-left:10%;
+    padding: 15px 0;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    font-size: 14px;
+    color: #505050;
+    font-weight: 700;
+}
+.last ::after{
+    content: "";
+    border-bottom: 2px solid #ccc;
+}
